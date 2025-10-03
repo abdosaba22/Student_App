@@ -20,6 +20,7 @@ jobs:
 
       - name: Build and Push
         run: |
-          docker build -t mydockerhubuser/student-app:latest .
-          docker push mydockerhubuser/student-app:latest
+          docker build -t abdosaba22/student-app:latest .
+          docker push abdosaba22/student-app:latest
+
 
